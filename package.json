@@ -1,0 +1,20 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "file-system": "^2.2.2",
+    "fs": "^0.0.1-security",
+    "main-loop": "^3.4.0",
+    "parcel": "^2.10.2",
+    "snabbdom-template": "^0.1.5"
+  },
+  "devDependencies": {
+    "lerna": "^7.4.2"
+  },
+  "scripts": {
+    "start": "lerna run start"
+  }
+}
